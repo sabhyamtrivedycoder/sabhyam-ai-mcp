@@ -1,0 +1,25 @@
+{
+  "name": "sabhyam-ai-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for Sabhyam AI - Digital Twin & Co-Pilot",
+  "main": "index.js",
+  "bin": {
+    "sabhyam-ai-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sabhyam-ai",
+    "digital-twin",
+    "ai-agent"
+  ],
+  "author": "Sabhyam Trivedy",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  }
+}
